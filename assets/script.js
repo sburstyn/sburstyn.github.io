@@ -33,3 +33,9 @@ $("#description").ready(function(){
         $("#description-2").fadeIn();
     });
 });
+
+$(".list-item").ready(function(){
+    $(".list-item").hover(function(){
+        $(this).css("color", "white");
+    });
+});
